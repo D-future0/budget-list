@@ -64,11 +64,13 @@ section{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    width: 20px;
 }
 .delete-btn{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    width: 20px;
 }
 .edit-btn:hover {opacity: 0.5;} 
 .delete-btn:hover {opacity: 0.5;}
@@ -102,6 +104,9 @@ section{
       width: 80%;
     }
     #budget{
-        width: 15rem;
+        width: 10rem;
+    }
+    .budget-item{
+        width: 290px;
     }
   }

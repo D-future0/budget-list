@@ -159,8 +159,8 @@ function createList (id, value){
    element.setAttributeNode(artt);
    element.innerHTML = `<p class="item">${value}</p>
    <div class="btn-container">
-      <button type="botton" class="edit-btn">edit<i class="fas fa-edit" style="color: green;"></i></button> 
-      <button type="botton" class="delete-btn">delete<i class="fas fa-trash" style="color: red;"></i></button> 
+      <img src="./pen-to-square-regular.svg" class="edit-btn fas fa-edit" alt="">
+      <img src="./trash-can-regular.svg" class="delete-btn fas fa-trash" alt=""> 
    </div>`;
    // select delete/edit btn
    const deleteBtn = element.querySelector(`.delete-btn`);
