@@ -99,14 +99,20 @@ section{
         width: 500px;
     }
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 600px) {
     section {
       width: 80%;
     }
     #budget{
-        width: 10rem;
+        width: 180px;
     }
     .budget-item{
-        width: 290px;
+        width: 250px;
+    }
+    .edit-btn{
+        width: 15px;
+    }
+    .delete-btn{
+        width: 15px;
     }
   }
