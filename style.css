@@ -103,6 +103,9 @@ section{
     section {
       width: 80%;
     }
+    .budgetList-form{
+        padding: 0px;
+    }
     #budget{
         width: 150px;
         font-size: 12px;
@@ -116,5 +119,10 @@ section{
     }
     .delete-btn{
         width: 15px;
+    }
+  }
+  @media screen and (max-width: 280px) {
+    .budget-item{
+        width: 190px;
     }
   }
