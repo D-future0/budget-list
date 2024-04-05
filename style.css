@@ -102,13 +102,14 @@ section{
 @media screen and (max-width: 600px) {
     section {
       width: 80%;
-      font-size: 12px;
     }
     #budget{
-        width: 180px;
+        width: 150px;
+        font-size: 12px;
     }
     .budget-item{
         width: 250px;
+        font-size: 12px;
     }
     .edit-btn{
         width: 15px;
